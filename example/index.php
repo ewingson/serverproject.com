@@ -9,7 +9,7 @@
 <p>hier k&ouml;nnte 'hello world' stehen...</p>
 <a href = 'https://selfhtml.org/'>hier selfhtml at https://selfhtml.org/</a><br />
 <!--erste adressierungsart-->
-<a href = 'https://www.serverproject.de/example/etc/freax/files/'>./etc/freax/files/ {([one])}</a><br />
+<a href = 'https://www.serverproject.com/example/etc/freax/files/'>./etc/freax/files/ {([one])}</a><br />
 <!--zweite adressierungsart-->
 <a href = '/example/etc/freax/files/'>./etc/freax/files/ {([two])}</a><br />
 <!--dritte adressierungsart-->
