@@ -1,21 +1,31 @@
-<!-- Location: /example/index.php -->
+<!-- Location: /sites/index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<title>browsertitelzeile</title>
+<meta charset="utf-8"/>
+<!-- <link integrity = "" rel="stylesheet" href="style.css"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+<meta name="author" content="Matthias Evering"/>
+<meta name="editor" content="FeatherPad 1.4.1"/>
+<meta name="keywords" content="HQ"/>
+<meta name="description" content="description"/>
+<link rel="icon" href="https://www.serverproject.de/favicon.ico" type="image/x-ico; charset=binary"/>
+<title>serverproject.com</title>
 </head>
-<body>
+<body bgcolor = "black">
 <style>
 a:hover {color: red;}
 a
 {
-color: blue;
+color: white;
 text-decoration-line: underline;
 text-decoration-color: red;
 }
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: black;
+color: white;
 }
 .button {
   background-color: #0d47a1;
@@ -41,24 +51,7 @@ color: black;
 <a href = "https://www.serverproject.com/socials/"><button class = "button" id = "six">socials</button></a>
 <a href = "https://www.serverproject.com/contact/"><button class = "button" id = "seven">contact</button></a>
 </div>
-<!--dies ist ein html-kommentar-->
-<p>hier k&ouml;nnte 'hello world' stehen...</p>
-<a href = 'https://selfhtml.org/'>hier selfhtml at https://selfhtml.org/</a><br />
-<!--erste adressierungsart-->
-<a href = 'https://www.serverproject.com/example/etc/freax/files/'>./etc/freax/files/ {([one])}</a><br />
-<!--zweite adressierungsart-->
-<a href = '/example/etc/freax/files/'>./etc/freax/files/ {([two])}</a><br />
-<!--dritte adressierungsart-->
-<a href = './etc/freax/files/'>./etc/freax/files/ {([three])}</a><br />
-<!--vierte adressierungsart-->
-<a href = 'etc/freax/files/'>./etc/freax/files/ {([four])}</a><br />
-<hr /><br />
-<?php
-/*dies ist ein php-kommentar*/
-$file = './index.php';
-$code = highlight_file ($file, $return = true);
-echo $code;
-?>
+<div>content</div>
 <br /><hr /">
 <div align = "center"><a href = "https://github.com/ewingson/serverproject.com">code</a></div>
 </body>
