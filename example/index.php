@@ -52,14 +52,14 @@ color: black;
 <a href = './etc/freax/files/'>./etc/freax/files/ {([three])}</a><br />
 <!--vierte adressierungsart-->
 <a href = 'etc/freax/files/'>./etc/freax/files/ {([four])}</a><br />
-<hr /><br />
+<hr />
 <?php
 /*dies ist ein php-kommentar*/
 $file = './index.php';
 $code = highlight_file ($file, $return = true);
 echo $code;
 ?>
-<br /><hr /">
+<hr /">
 <div align = "center"><a href = "https://github.com/ewingson/serverproject.com">code</a></div>
 </body>
 </html>
