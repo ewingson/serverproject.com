@@ -1,6 +1,6 @@
 <!-- Location: /example/index.php -->
 <!DOCTYPE html>
-<html>
+<html lang = "de">
 <head>
 <title>browsertitelzeile</title>
 </head>
