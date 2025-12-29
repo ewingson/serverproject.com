@@ -59,7 +59,7 @@ $file = './index.php';
 $code = highlight_file ($file, $return = true);
 echo $code;
 ?>
-<hr /">
+<hr />
 <div align = "center"><a href = "https://github.com/ewingson/serverproject.com">code</a></div>
 </body>
 </html>
