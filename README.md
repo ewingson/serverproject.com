@@ -1,2 +1,2 @@
 # serverproject.com
-this
+this is HQ
